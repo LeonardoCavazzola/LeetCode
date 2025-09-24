@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem11 {
+object Problem0011 {
   class Solution {
     fun maxArea(height: IntArray): Int {
       var l = 0

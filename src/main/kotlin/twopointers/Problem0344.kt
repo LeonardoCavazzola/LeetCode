@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem344 {
+object Problem0344 {
   class Solution {
     fun reverseString(s: CharArray): Unit {
       var l = 0

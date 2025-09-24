@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem27 {
+object Problem0027 {
   class Solution {
     fun removeElement(nums: IntArray, `val`: Int): Int {
       var slow = 0

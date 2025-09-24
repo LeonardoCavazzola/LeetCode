@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem125 {
+object Problem0125 {
   class Solution {
     fun isPalindrome(s: String): Boolean {
       var l = 0

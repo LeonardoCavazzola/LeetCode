@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem167 {
+object Problem0167 {
   class Solution {
     fun twoSum(numbers: IntArray, target: Int): IntArray {
       var l = 0

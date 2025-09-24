@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem26 {
+object Problem0026 {
   class Solution {
     fun removeDuplicates(nums: IntArray): Int {
       var slow = 0

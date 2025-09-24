@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem28 {
+object Problem0028 {
   class Solution {
     fun strStr(haystack: String, needle: String): Int {
       var i = 0

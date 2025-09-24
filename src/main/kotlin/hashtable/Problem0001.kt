@@ -1,6 +1,6 @@
 package hashtable
 
-object Problem1 {
+object Problem0001 {
   class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
       val map = hashMapOf<Int, Int>()

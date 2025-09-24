@@ -1,6 +1,6 @@
 package twopointers
 
-object Problem15 {
+object Problem0015 {
   class Solution {
     fun threeSum(nums: IntArray): List<List<Int>> {
       nums.sort()
