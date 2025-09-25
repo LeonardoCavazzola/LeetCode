@@ -1,9 +1,5 @@
 package hashtable
 
-fun main() {
-  Problem1207.Solution().uniqueOccurrences(intArrayOf(1,1,1))
-}
-
 object Problem1207 {
   class Solution {
     fun uniqueOccurrences(arr: IntArray): Boolean {
