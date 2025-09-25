@@ -8,10 +8,10 @@ object Problem0557 {
       var s = 0
       var f = 0
 
-      while (f < arr.size) {
-        if (arr[f] == ' ' || f == arr.lastIndex) {
+      while (f <= arr.size) {
+        if (f == arr.size || arr[f] == ' ') {
           var l = s
-          var r = if (f == arr.lastIndex) arr.lastIndex else f - 1
+          var r = f - 1
 
           while (l < r) {
             val x = arr[l]
