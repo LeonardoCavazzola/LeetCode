@@ -8,10 +8,10 @@ object Problem0035 {
 
       while (l <= r) {
         val i = l + (r - l) / 2
-        when {
-          nums[i] == target -> return i
-          nums[i] < target -> l = i + 1
-          else -> r = i - 1
+        if (nums[i] < target) {
+          l = i + 1
+        } else {
+          r = i - 1
         }
       }
 
