@@ -1,4 +1,4 @@
-package sliddingwindow
+package slidingwindow
 
 object Problem3090 {
   class Solution {
