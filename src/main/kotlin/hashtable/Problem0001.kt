@@ -3,20 +3,15 @@ package hashtable
 object Problem0001 {
   class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-      val map = hashMapOf<Int, Int>()
+      val map = HashMap<Int, Int>()
 
-      nums.forEachIndexed { index, value ->
-        val result = target - value
-        val anotherIndex = map[result]
-
-        if (anotherIndex != null) {
-          return intArrayOf(index, anotherIndex)
-        }
-
-        map[value] = index
+      for ((i, n) in nums.withIndex()) {
+        val j = map[target - n]
+        if (j != null) return intArrayOf(i, j)
+        map[n] = i
       }
 
-      throw RuntimeException()
+      return intArrayOf()
     }
   }
 }
